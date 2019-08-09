@@ -48,12 +48,13 @@ class _CommunicatePageState extends State<CommunicatePage> {
             ),
           ),
           new Positioned(
-            right: 15,
-            bottom: -10,
+            right: 10,
+            bottom: -15,
             child: new Row(
-              mainAxisAlignment: MainAxisAlignment.end,
+              mainAxisAlignment: MainAxisAlignment.center,
               children: <Widget>[
-                new Text("Emily CH"),
+                new Container(
+                    child: new Text("Emily CH", textAlign: TextAlign.center)),
                 new Container(
                   width: 80,
                   height: 80,
